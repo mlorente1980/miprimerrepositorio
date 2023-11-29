@@ -10,7 +10,8 @@ public class Ejercicio1 {
         B= valorin.nextFloat();
         C= valorin.nextFloat();
         D= valorin.nextFloat();
-        V_medio = (A+B+C+D)/4;
+        E= valorin.nextFloat();
+        V_medio = (A+B+C+D+E)/4;
         System.out.println("El valor medio es " + V_medio);
 
     }
